@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjob version="v02_19" substrate="wafer" type="ebpg5000+">
+  <color num="1" pattern="20180105_Microholes_square_25nmBSS_1.7.gpf" rgb="255 255 0"/>
+  <color num="1" pattern="20180105_Microholes_square_25nmBSS_1.8.gpf" rgb="0 255 255"/>
+  <color num="1" pattern="20180105_Microholes_square_25nmBSS_1.9.gpf" rgb="255 0 255"/>
+  <color num="1" pattern="20180105_Microholes_square_25nmBSS_2.0.gpf" rgb="255 127 0"/>
+  <substrate substrate="wafer">
+    <wafer rotation="0°" type="intrinsic" spec="" material="silicon" orientation="100" diameter="100mm">
+      <flat length="32.5mm" angle="0°"/>
+      <flat angle="0°" diameter="0mm"/>
+    </wafer>
+    <color rgb="137 41 160" substrate="wafer"/>
+    <position coord="0,0"/>
+    <exposure workinglevel="high" height="check" ht="100kV" name="Microholes5">
+      <position coord="0,0"/>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="32040,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="5x2" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,1005" vector="0,0" count="5"/>
+          <repetition space="1005,0" vector="0,0" enabled="true" count="2"/>
+          <pattern name="20180105_Microholes_square_25nmBSS_1.7.gpf">
+            <position coord="0,0"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </pattern>
+        </layout>
+      </layout>
+      <layout name="2x2">
+        <position coord="0,0"/>
+        <repetition space="36080,0" vector="0,0" enabled="true" count="2"/>
+        <repetition space="0,38000" vector="0,0" enabled="true" count="2"/>
+        <layout name="5x2" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,1005" vector="0,0" count="5"/>
+          <repetition space="1005,0" vector="0,0" enabled="true" count="2"/>
+          <pattern name="20180105_Microholes_square_25nmBSS_1.8.gpf">
+            <position coord="0,0"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </pattern>
+        </layout>
+      </layout>
+      <layout name="2x2">
+        <position coord="0,0"/>
+        <repetition space="40120,0" vector="0,0" enabled="true" count="2"/>
+        <repetition space="0,38000" vector="0,0" enabled="true" count="2"/>
+        <layout name="5x2" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,1005" vector="0,0" count="5"/>
+          <repetition space="1005,0" vector="0,0" enabled="true" count="2"/>
+          <pattern name="20180105_Microholes_square_25nmBSS_1.9.gpf">
+            <position coord="0,0"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </pattern>
+        </layout>
+      </layout>
+      <layout name="2x2">
+        <position coord="0,0"/>
+        <repetition space="44160,0" vector="0,0" enabled="true" count="2"/>
+        <repetition space="0,38000" vector="0,0" enabled="true" count="2"/>
+        <layout name="5x2" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,1005" vector="0,0" count="5"/>
+          <repetition space="1005,0" vector="0,0" enabled="true" count="2"/>
+          <pattern name="20180105_Microholes_square_25nmBSS_2.0.gpf">
+            <position coord="0,0"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </pattern>
+        </layout>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="38000,0" vector="0,0" count="2"/>
+        <repetition space="0,48000" vector="0,0" count="2"/>
+        <shape size="1000,500" type="rectangle" clip="0,0">
+          <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+          <position coord="0,0"/>
+          <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          <pam/>
+        </shape>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="32040,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="2x20" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,5100" vector="0,0" count="2"/>
+          <repetition space="100,0" vector="0,0" count="20"/>
+          <identifier text="1.7">
+            <position coord="0,0"/>
+            <font name="helvetica-34-normal" pixel="1,1"/>
+            <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+            <ORIENTATION>NORMAL</ORIENTATION>
+            <placement x="center" y="line" orientation="normal"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </identifier>
+        </layout>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="36080,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="2x20" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,5100" vector="0,0" count="2"/>
+          <repetition space="100,0" vector="0,0" count="20"/>
+          <identifier text="1.8">
+            <position coord="0,0"/>
+            <font name="helvetica-34-normal" pixel="1,1"/>
+            <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+            <ORIENTATION>NORMAL</ORIENTATION>
+            <placement x="center" y="line" orientation="normal"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </identifier>
+        </layout>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="40120,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="2x20" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,5100" vector="0,0" count="2"/>
+          <repetition space="100,0" vector="0,0" count="20"/>
+          <identifier text="1.9">
+            <position coord="0,0"/>
+            <font name="helvetica-34-normal" pixel="1,1"/>
+            <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+            <ORIENTATION>NORMAL</ORIENTATION>
+            <placement x="center" y="line" orientation="normal"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </identifier>
+        </layout>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="44160,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="2x20" scanorder="serpentine">
+          <position coord="0,0"/>
+          <repetition space="0,5100" vector="0,0" count="2"/>
+          <repetition space="100,0" vector="0,0" count="20"/>
+          <identifier text="2.0">
+            <position coord="0,0"/>
+            <font name="helvetica-34-normal" pixel="1,1"/>
+            <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+            <ORIENTATION>NORMAL</ORIENTATION>
+            <placement x="center" y="line" orientation="normal"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </identifier>
+        </layout>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="29960,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="50x1">
+          <position coord="0,0"/>
+          <repetition space="0,100" vector="0,0" count="50"/>
+          <identifier text="1.7">
+            <position coord="0,0"/>
+            <font name="helvetica-34-normal" pixel="1,1"/>
+            <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+            <ORIENTATION>NORMAL</ORIENTATION>
+            <placement x="center" y="line" orientation="normal"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </identifier>
+        </layout>
+      </layout>
+      <layout name="2x2" scanorder="serpentine">
+        <position coord="0,0"/>
+        <repetition space="46260,0" vector="0,0" count="2"/>
+        <repetition space="0,38000" vector="0,0" count="2"/>
+        <layout name="50x1">
+          <position coord="0,0"/>
+          <repetition space="0,100" vector="0,0" count="50"/>
+          <identifier text="2.0">
+            <position coord="0,0"/>
+            <font name="helvetica-34-normal" pixel="1,1"/>
+            <calibration resolution="0.05,0.05" method="optimized" bss="0.05,0.05"/>
+            <ORIENTATION>NORMAL</ORIENTATION>
+            <placement x="center" y="line" orientation="normal"/>
+            <beam ff="false" bin="false" defocus="-1000" name="92NM_59NA_200UM_100KV.beam_100" dose="117"/>
+          </identifier>
+        </layout>
+      </layout>
+    </exposure>
+  </substrate>
+</cjob>
